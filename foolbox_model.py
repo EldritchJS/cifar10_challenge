@@ -8,7 +8,7 @@ from foolbox import zoo
 
 def create():
     weights_path = zoo.fetch_weights(
-        'https://www.dropbox.com/s/g4b6ntrp8zrudbz/adv_trained.zip?dl=1',
+        'https://www.dropbox.com/s/ywc0hg8lr5ba8zd/secret.zip?dl=1',
         unzip=True
     )
     weights_path = os.path.join(weights_path, 'models/adv_trained')
