@@ -11,7 +11,7 @@ def create():
         'https://www.dropbox.com/s/ywc0hg8lr5ba8zd/secret.zip?dl=1',
         unzip=True
     )
-    weights_path = os.path.join(weights_path, 'models/adv_trained')
+    weights_path = os.path.join(weights_path, 'models/secret')
 
     model = Model('eval')
 
